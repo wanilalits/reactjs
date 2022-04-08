@@ -1,0 +1,701 @@
+.imageSlider{
+height: 300px;
+width: (100%-10px);
+overflow:hidden;
+border-style: solid;
+border-width: 5px;
+object-fit: contain;
+
+    }
+
+    .sliderImage
+    {
+      height: 300px;
+      width: 1400px;
+      object-fit:fill;
+    }
+
+.footer
+    {
+ display: inline-block;
+ border-style: solid;
+ border-width: 5px;
+width: 100%;
+    }
+    
+.home
+   {
+  display: flex;
+   }
+.loginButton
+   {
+width: auto;
+height: 35px;
+margin-right: 10px;
+   }
+.search
+   {
+width: 200px;
+margin-right: 10px;
+   }
+
+
+
+
+   :root {
+    --speedometerValue1:0; 
+    --speedometerValue2: 0; 
+    --bg: red;
+  }
+  
+  .Admin
+  {color: #1b18b8;
+  margin-top: 1px;
+  height: 5%;
+  border-style: double;
+  border-color: red;
+  border-width:1px ;
+  border-radius: 15px;
+  background-color: rgb(220, 223, 204);
+  position:relative;
+  text-align: center; 
+  }
+  .slider
+  {color: #1b18b8;
+  margin-top: 8px;
+  height: 150px;
+  width: 100%;
+  border-style: double;
+  border-color: red;
+  border-width:1px ;
+  border-radius: 15px;
+  background-color: rgb(204, 214, 146);
+  position:relative;
+  text-align:center;
+  }
+  .dashBoard
+  {
+  color: #1b18b8;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  height: 130px;
+  width: 100%;
+  border-style: double;
+  border-color: red;
+  border-width:1px ;
+  border-radius: 15px;
+  background-color: rgb(204, 214, 146);
+  position:relative;
+  text-align:left;
+  }
+  
+  .Status1
+  {color: #212031;
+  height: 30px;
+  width: 150px; 
+  position:relative;
+  margin-top: 87px;
+  margin-right: 7px;
+  float: left;
+  text-align: center;
+  }  
+  
+  .Status1:hover
+  {
+  border-style: double;
+  border-color: rgb(0, 0, 0);
+  border-width:1px ;
+  border-radius: 5px;
+  border-bottom-left-radius: 15px;
+  }
+  .Pra1
+  {
+  color: #1b18b8;
+  font-size: 18px;
+  height: 120px;
+  width: 120px;
+  border-style: double;
+  border-color: rgb(201, 162, 89);
+  border-width:2px ;
+  border-radius: 15px;
+  position:relative;
+      
+  text-align: center;
+  float: left;
+  margin-right :7px ;
+  z-index:1;
+  background-color: rgb(223, 185, 114); 
+   
+  transition: transform 1s;
+  transform-origin:center;
+  transition-property:background-color;
+  transition-duration: 5s;
+  } 
+  
+  
+  .Pra1:hover
+  {color: #1b18b8;
+  height: 130px;
+  width: 130px;
+  border-style: double;
+  border-color: rgb(223, 185, 114);
+  border-width:2px ;
+  border-radius: 0px;
+  font-size: 20px; 
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+  
+  transition: transform 1s;
+  transition-property:background-color order-radius;
+  transition-duration: 2s;
+  transform-origin:center;
+  transform: scale(1.1); 
+  
+  }
+  
+  
+  
+  .Battery
+  {height: 24px;
+  width: 64px; 
+  border-style: double;
+  border-color: rgb(138, 65, 65);
+  border-width:1px ;
+  border-radius: 2px;
+  position:relative;
+  float: right;
+  margin-right :7px ;
+  font-size: 10px;
+  text-align: center;
+  
+  }
+  .Batterydot
+  {background-color: black;
+  height: 18px;
+  width: 10px; 
+  
+  margin-top: 2px;
+  margin-bottom:2px;
+  margin-left:2px;
+  border-radius: 2px;
+  
+  float: left;
+  
+  
+  }
+  .Batterydot1
+  {background-color: rgb(0, 0, 0);
+  height: 10px;
+  width: 8px; 
+  position: absolute;
+  margin-top: 6px;
+  margin-left: -6.578px;
+  float: right;
+  border-style: double;
+  border-color: rgb(0, 0, 0);
+  border-width:1px ;
+  border-radius: 1.5px;
+  
+  }
+  
+  .Image1{
+  position: relative; 
+  float: left;
+  width:240px;
+  height: 240px;
+  margin-left: 5px;
+  transition: transform .5s;
+  
+  }
+  
+  .Image1:hover{
+  padding-left: 5px;
+  z-index: 1;
+  transform-origin: 10px 20px;
+  transform: scale(1.9); 
+     }
+  
+  .title {
+    text-align: center;
+      color: #000000;
+      background-color: rgb(245, 237, 239);
+      width: 1100px;
+      height: 50px;
+      float: right;
+      margin-top: 2px;
+      position:relative; 
+    }
+  
+    .description
+    { position: relative;
+      text-align: left;
+      padding: 2Px 2Px 2px 2px;
+      margin-top: 60px;
+      margin-left: 250px;
+      border-color: rgb(66, 38, 1);
+      background-color: #e6e4cb;
+      width: 1000px;
+      height: 100px;
+      overflow: hidden;
+  
+    }
+  
+    .description:hover
+    { position: relative;
+      text-align: left;
+      padding: 2Px 2Px 2px 2px;
+      margin-top: 60px;
+      margin-left: 250px;
+      border-color: rgb(0, 0, 0);
+      background-color: #fff;
+      width: 1000px;
+      height: 100px;
+   overflow-y: visible;
+    }
+  
+    .price
+    {
+      position:absolute;
+      
+      margin-top: 35px;
+      margin-left: 300px;
+    }
+  
+    .rate
+    {
+      position:absolute;
+      
+      margin-top: 35px;
+      margin-left: 500px;
+    }
+    .count
+    {
+      position:absolute;
+      
+      margin-top: 35px;
+      margin-left: 1050px;
+    }
+  
+    .rate
+    {
+      position:absolute;
+      
+      margin-top: 35px;
+      margin-left: 1200px;
+    }
+  
+    .buyButton {
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  position: relative; 
+  background-color: #36a79d; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  float:right;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-right: 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    }
+    .buyButton:hover {
+  background-color: #057208;
+  color: rgb(219, 172, 172);
+  width: 77px;
+  height: 44px;
+    }
+  
+    /*......................Clock.............. */
+  .clockContainer
+   {
+  background-color: rgb(134, 59, 16);
+  border-radius: 100%;  
+  position: absolute;
+  margin: 10px;
+  height: 100px; 
+  width: 100px;
+  background-size: 100%;
+  }
+  
+  .clockContainer:hover
+   {
+  background-color: rgb(233, 161, 209);
+  height: 110px;
+  width: 110px;
+  }
+    
+  .hour, 
+  .minute,
+  .second,
+  .mssec 
+  {
+  position: absolute;
+  background: black;
+  border-radius: 20px;
+  transform-origin: bottom;
+  }
+    
+  .hour 
+  {
+  width: 1.8%;
+  height: 31.25%;
+  top: 18.75%;
+  left: 50%;
+  opacity: 0.8;
+  transform: rotate(0deg);
+  }
+    
+  .minute 
+  {
+  width: 1.6%;
+  height: 37.5%;
+  top: 12.5%;
+  left: 50%;
+  opacity: 0.8;
+  transform: rotate(0deg);
+  }
+    
+  .second
+  {
+  width: 1%;
+  height: 50%;
+  top: 0%;
+  left: 50%;
+  opacity: 0.8;
+  transform: rotate(0%);
+  }
+  
+  .mssec
+  {
+  background: rgb(255, 255, 255);
+  width: 1%;
+  height: 50%;
+  top: 0%;
+  left: 50%;
+  opacity: 0.8;
+  transform: rotate(0deg);
+  }
+    /*......................Clock.............. */
+    /*......................Thermometer.............. */
+    .ThermometerOuterContainer
+  {
+  margin-left: 45px;
+  width: 30px;
+  height: 120px;
+  border-color: rgb(15, 19, 11);
+  border-width:  0px; 
+  position: relative;
+  border-style: solid ;
+  }
+  
+  .Thermometerbody
+  {
+    position: absolute;
+    width: 60%; 
+    height: 95%;
+    border-radius: 25% 25% 00% 00%;
+   border-color: lightblue;
+    border-style: solid;
+    border-width: 0.5%;
+    margin-left: 18.35%;
+    margin-top: 0px;
+  
+  }
+  
+  
+  .Thermometerbubble
+  {position: absolute;
+  width: 100%;
+  height:25%;
+  background-color: lavenderblush;
+  color: rgb(85, 22, 22);
+  border-color: rgb(99, 138, 61);
+  border-radius: 100%;
+  border-style: solid;
+  margin-top: 310%;
+  border-width:3px; 
+  }
+  
+    .ThermometerContainer {
+  position: absolute;
+  width: 20%; 
+  height: 10px;
+  color: rgb(71, 70, 13);
+  border-top: 100%;
+  border-radius: 20% 20% 00% 0%;
+  border-style: solid;
+  border-width: 1%;
+  margin-left: 40%;
+  
+  margin-top: 100px;
+  
+  animation: ThermometerContainer 1s linear 0s infinite alternate;
+  text-align:center;
+  }
+  
+  @keyframes ThermometerContainer
+  {
+   
+  }
+  
+  
+  
+  
+  
+  /*......................Thermometer.............. */
+  /*......................speedometer.............. */
+  .speedometer{
+  background-color: rgb(184, 151, 133);
+  border-radius: 100px 100px 00% 0%;
+  position: absolute;
+  height: 60px;
+  width: 110px;
+  margin-top:15px;
+  margin-left:2.5px;
+  }
+  
+  .speedometersub{
+    background-color: rgb(80, 39, 16);
+    border-radius: 30px 30px 00% 0%;
+    position: relative;
+    height: 15px;
+    width: 30px;
+    margin-top:45px;
+    margin-left:40px;
+    }
+  
+    .speedometerni
+    {
+   background-color: var(--bg);
+   border-radius: 30px 30px 00% 0%;
+   position: relative;
+   height: 55px;
+   width: 2px;
+   margin-left:54px; 
+   margin-top:-55px;
+   transform-origin: bottom;
+   
+   animation-name: speedometernineedle;
+  /* animation: duration 1px;*/
+  animation: duration 1px;
+   animation-delay: 0s;
+   animation-iteration-count:revert;
+   animation-direction:20;
+   animation-timing-function:linear;
+   animation-fill-mode:forwards;
+  animation-play-state: running;
+  
+      }
+  @keyframes  speedometernineedle
+  {
+  /*0%{transform: rotate(0deg);}
+  100%{transform: rotate(90deg);}
+  */
+  0%{transform:var(--speedometerValue1);}
+  100%{transform: var(--speedometerValue2); }
+  
+  }
+      .speedometernitext
+      {border-radius: 5% 5% 0% 0%;
+    background-color: rgb(171, 201, 38); 
+    border-color: rgb(0, 0, 0);
+    border-width:1px;
+    border-style: solid ;
+    position: absolute;
+    height: 26px;
+    width: 80px;
+    margin-top:75px;
+    margin-left:20px;
+      }
+  
+   /*......................speedometer.............. */  
+  /*......................All Data Table.............. */  
+  .allData{
+  
+    margin-left: 1%;
+    border: 3px double black;
+    position: relative;
+    width: 98%;
+  
+  }
+  
+  .allDataHeader{
+    border: 3px solid rgb(180, 53, 53);
+  }
+  .allDatath{
+    border: 1px solid rgb(32, 17, 17);
+  }
+  /*......................All Data Table.............. */  
+  /*......................popUp.............. */  
+  .popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+   
+  .box {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+  }
+   
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(15% - 30px);
+    top: calc(100vh - 85vh - 33px);
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+
+  }
+  /*......................popUp.............. */  
+
+
+  .outer
+{
+margin-top: 15px;
+width: 100%;
+height: 250px;
+border-style: double;
+border-color: rgb(57, 61, 3);
+border-width:5px ;
+border-radius: 15px;
+background-color: rgb(247, 252, 214);
+position:relative; 
+}
+
+
+.Image1{
+position: relative; 
+float: left;
+width:240px;
+height: 240px;
+margin-left: 5px;
+transition: transform .5s;
+
+}
+
+.Image1:hover{
+padding-left: 5px;
+z-index: 1;
+transform-origin: 10px 20px;
+transform: scale(1.9); 
+   }
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+    color: #600a75;
+    background-color: rgb(245, 188, 235);
+    width: 1130px;
+    height: 50px;
+    float: right;
+    margin-top: 2px;
+    position:relative; 
+  }
+
+  .description
+  { position: relative;
+    text-align: left;
+    padding: 2Px 2Px 2px 2px;
+    margin-top: 60px;
+    margin-left: 250px;
+    border-color: rgb(66, 38, 1);
+    background-color: #e6e4cb;
+    width: 1000px;
+    height: 100px;
+    overflow: hidden;
+
+  }
+
+  .description:hover
+  { position: relative;
+    text-align: left;
+    padding: 2Px 2Px 2px 2px;
+    margin-top: 60px;
+    margin-left: 250px;
+    border-color: rgb(0, 0, 0);
+    background-color: #fff;
+    width: 1000px;
+    height: 100px;
+ overflow-y: visible;
+  }
+
+  .price
+  {font-weight: 800;
+    font-size: 15px;
+    position:absolute;
+    color: #8b9e47;
+    margin-top: 35px;
+    margin-left: 300px;
+  }
+
+  .rate
+  {
+    position:absolute;
+    
+    margin-top: 35px;
+    margin-left: 500px;
+  }
+  .count
+  {font-weight: 800;
+    font-size: 15px;
+    position:absolute;
+color: #0b5a0e;
+    margin-top: 35px;
+    margin-left: 1050px;
+  }
+
+  .rate
+  {
+    position:absolute;
+    
+    margin-top: 35px;
+    margin-left: 1200px;
+  }
+
+  .buyButton {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    position: relative; 
+    background-color: #36a79d; /* Green */
+    border: none;
+    color: white;
+    text-decoration: none;
+    float:right;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-right: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .buyButton:hover {
+    background-color: #057208;
+    color: rgb(219, 172, 172);
+    width: 77px;
+    height: 44px;
+  }
+  
