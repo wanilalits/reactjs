@@ -29,12 +29,12 @@ function App() {
    <BrowserRouter>
  <AppNavbar/>
         <Routes> 
-        <Route path="" element={<Home/>} />
-        <Route  path="/responsive" element={<Responsive />} />
-        <Route  path="/aboutus" element={<AboutUs />} />
-        <Route  path="/footer" element={<Footer />} />
-        <Route  path="/buy" element={<Buy />} />
-        <Route  path="/materialui" element={<MaterialUI />} />
+        <Route path="reactjs" element={<Home/>} />
+        <Route  path="reactjs/responsive" element={<Responsive />} />
+        <Route  path="reactjs/aboutus" element={<AboutUs />} />
+        <Route  path="reactjs/footer" element={<Footer />} />
+        <Route  path="reactjs/buy" element={<Buy />} />
+        <Route  path="reactjs/materialui" element={<MaterialUI />} />
         </Routes>
  </BrowserRouter>
 
