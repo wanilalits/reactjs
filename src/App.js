@@ -29,7 +29,7 @@ function App() {
    <BrowserRouter>
  <AppNavbar/>
         <Routes> 
-        <Route path="reactjs" element={<Home/>} />
+        <Route path="reactjs/" element={<Home/>} />
         <Route  path="reactjs/responsive" element={<Responsive />} />
         <Route  path="reactjs/aboutus" element={<AboutUs />} />
         <Route  path="reactjs/footer" element={<Footer />} />

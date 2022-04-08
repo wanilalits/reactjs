@@ -12,11 +12,11 @@ class AppNavbar extends Component {
             <div>
                <Navbar bg="light" expand="lg">
   <Container>
-    <Navbar.Brand href="reactjs">React-App</Navbar.Brand>
+    <Navbar.Brand >React-App</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-      <Nav.Link> <Link to="">Home </Link></Nav.Link>
+      <Nav.Link> <Link to="reactjs/">Home </Link></Nav.Link>
       <Nav.Link ><Link to="reactjs/responsive">Responsive</Link></Nav.Link>
         <Nav.Link ><Link to="reactjs/aboutus">About Us </Link></Nav.Link>
         <Nav.Link><Link to="reactjs/materialui">Material UI</Link></Nav.Link>
