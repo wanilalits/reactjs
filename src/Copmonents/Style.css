@@ -10,8 +10,8 @@ object-fit: contain;
 
     .sliderImage
     {
-      height: 300px;
-      width: 1400px;
+      height: 100%;
+      width: 100%;
       object-fit:fill;
     }
 

@@ -23,6 +23,7 @@ class Responsive extends Component {
     } 
       render() {
         return (
+            <>
 
             <div className="grand_parent">
             {
@@ -37,7 +38,7 @@ class Responsive extends Component {
               <br/>
               <p3 className="ProductPrice3" > ${item.price}/- </p3>
               <br/>
-<button className="ProductButton3" >Buy</button>
+<div className="ProductButton3"> <button  >More</button></div>    
 
 					 </div>
 				   
@@ -50,55 +51,9 @@ class Responsive extends Component {
            
 
 
-            <div class="grand_parent">
-			<h1> </h1>
-			<div class="parents">
-				<div class="child">
-					<p>1</p>
-				</div>
-				<div class="child">
-					<p>2</p>
-				</div>
-				<div class="child">
-					<p>3</p>
-				</div>
-                <div class="child">
-					<p>4</p>
-				</div>
-                <div class="child">
-					<p>5</p>
-				</div>
-                <div class="child">
-					<p>6</p>
-				</div>
-                <div class="child">
-					<p>7</p>
-				</div>
-                <div class="child">
-					<p>8</p>
-				</div>
-                <div class="child">
-					<p>9</p>
-				</div>
-                <div class="child">
-					<p>10</p>
-				</div>
-                <div class="child">
-					<p>11</p>
-				</div>
-                <div class="child">
-					<p>12</p>
-				</div>
-                <div class="child">
-					<p>13</p>
-				</div>
-                <div class="child">
-					<p>14</p>
-				</div>
-			</div>
-		</div>
+            
             </div>
-       
+   </>
 
         );
     }

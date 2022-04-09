@@ -32,7 +32,7 @@ class Buy extends Component {
                 <>
                     <div className="outer">
                     <div className="title" >{item.title}</div>
-                    <div > <img className="Image1" src={item.image} alt="Image Name" /> </div>
+                    <div ><img className="Image1" src={item.image} alt="" /> </div>
                     <div className="description">{item.description}</div>
                     <div className="rate">Rating:-<span/>{item.rating.rate}</div>
                     <div className="count"> In stock:-<span/>{item.rating.count}</div>

@@ -1,18 +1,10 @@
 
-    .grand_parent{ width: 98.5vw; 
-        background: #dfe6e9;
-        
+    .grand_parent{ width: 80w; 
+    background: #dfe6e9;
+      margin-left:20vw;
      }
-    h1{
-        font-size: 4rem;
-        padding: 0px 0;
-        text-align: center;
-        color: #000;
-       
-    }
-    p{
-        text-align: center;
-    }
+   
+   
     .parents{  
         width: auto; 
         height: auto; 
@@ -21,31 +13,38 @@
         display: flex;
         flex-wrap: wrap; 
         transition: all 0.1 linear;
-        background-color: #8e992e;
+        background-color: #e0e5a0;
+        align-self: center;
     }
     .child{
-       
-        height: 200px;
-        background:#81ecec;
+        height: 250px;
+        background:#e0f1f1;
         box-shadow: 0 0 20px #bac3c3;
-        flex:0 0 22vw;
+        flex:0 1 17vw;
         margin: 1vw;
-        
+        position: relative;
+        border-radius:  5%; ;
     }
     .child:hover{
+        
         border-style: solid;
-        border-color: rgb(221, 98, 41);
-        border-width:0.5px ;
+        border-color: rgb(49, 27, 17);
+        border-width:0.3px ;
         box-shadow: 0 0 20px #292b2b;
 
     
     }
+    .child:nth-child(even) {
+        background-color: #f4ffff;
+    }
+
+
 
     .child:first-child{
-        background: #ffbe76;
+       
     }
     .child:last-child{
-        background: #ff7979;
+      
     }
 
 
@@ -55,10 +54,10 @@
         .grand_parent{height:auto; }
         .parents{background-color:rgb(224, 133, 220) ;}
         .child{
-                
-        
-            flex:1 1 30vw;
-            margin: 3vw;
+              min-height: 250px;  
+    
+            flex:1 1 25vw;
+            margin: 1vw;
         }
         
     }
@@ -75,29 +74,39 @@
     }
 
 .Image3{
- width:6vw;
-height:6vw;
+width:100px;
+height:100px;
 transition: transform .5s;
         }
 .ProductName3{
     font-style: inherit;
     color: rgb(61, 13, 13);
+    font-size: 90%;
     font-weight: 600;
+overflow: hidden;
          }     
     .ProductPrice3
         {
             font-style: inherit;
             color: rgb(32, 73, 15);
             font-weight: 800;
+            position: absolute;
+            top: 80%;
+            left: 0%;
         }
    .ProductButton3
    {
-    
     color: rgb(0, 0, 0);
     background-color: #dff5e6;
     font-weight: 500;
-    position:static;
-    margin-top: 2%;
+    position: absolute;
+top: 80%;
+left: 40%;
+    width: auto;
+    height: auto;
+    border: 3px solid #73AD21;
+
+
    }
 
   

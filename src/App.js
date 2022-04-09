@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Home from './Copmonents/Home';
 import AppNavbar from './Copmonents/AppNavbar';
 import Footer from './Copmonents/Footer';
@@ -30,6 +29,7 @@ function App() {
  <AppNavbar/>
         <Routes> 
         <Route exact path="reactjs/" element={<Home/>} />
+  
         <Route  path="reactjs/responsive" element={<Responsive />} />
         <Route  path="reactjs/aboutus" element={<AboutUs />} />
         <Route  path="reactjs/footer" element={<Footer />} />
