@@ -24,7 +24,7 @@
         background-color: #8e992e;
     }
     .child{
-      
+       
         height: 200px;
         background:#81ecec;
         box-shadow: 0 0 20px #bac3c3;
@@ -32,7 +32,15 @@
         margin: 1vw;
         
     }
+    .child:hover{
+        border-style: solid;
+        border-color: rgb(221, 98, 41);
+        border-width:0.5px ;
+        box-shadow: 0 0 20px #292b2b;
+
     
+    }
+
     .child:first-child{
         background: #ffbe76;
     }
@@ -65,3 +73,31 @@
                 margin: 3vw;
             }
     }
+
+.Image3{
+ width:6vw;
+height:6vw;
+transition: transform .5s;
+        }
+.ProductName3{
+    font-style: inherit;
+    color: rgb(61, 13, 13);
+    font-weight: 600;
+         }     
+    .ProductPrice3
+        {
+            font-style: inherit;
+            color: rgb(32, 73, 15);
+            font-weight: 800;
+        }
+   .ProductButton3
+   {
+    
+    color: rgb(0, 0, 0);
+    background-color: #dff5e6;
+    font-weight: 500;
+    position:static;
+    margin-top: 2%;
+   }
+
+  

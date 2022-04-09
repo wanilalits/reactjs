@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-
+import React, { Component} from 'react';
+import './Style.css';
 class Buy extends Component {
     constructor() {
         super();
