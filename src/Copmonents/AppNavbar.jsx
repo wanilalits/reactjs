@@ -16,12 +16,13 @@ class AppNavbar extends Component {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-      <Nav.Link> <Link to="reactjs/">Home </Link></Nav.Link>
-      <Nav.Link ><Link to="reactjs/responsive">Responsive</Link></Nav.Link>
-        <Nav.Link ><Link to="reactjs/aboutus">About Us </Link></Nav.Link>
-        <Nav.Link><Link to="reactjs/materialui">Material UI</Link></Nav.Link>
-        <Nav.Link ><Link to="reactjs/footer">Footer</Link></Nav.Link>
-        <Nav.Link ><Link to="reactjs/buy">Buy</Link></Nav.Link>
+      <Nav.Link> <Link to="">Home </Link></Nav.Link>
+      <Nav.Link ><Link to="/responsive">Responsive</Link></Nav.Link>
+      <Nav.Link ><Link to="/dashboards">Dashboards</Link></Nav.Link>
+        <Nav.Link ><Link to="/aboutus">About Us </Link></Nav.Link>
+        <Nav.Link><Link to="/materialui">Material UI</Link></Nav.Link>
+        <Nav.Link ><Link to="/footer">Footer</Link></Nav.Link>
+        <Nav.Link ><Link to="/buy">Buy</Link></Nav.Link>
 
  
         <NavDropdown title="DropDown" id="basic-nav-dropdown">
@@ -39,6 +40,7 @@ class AppNavbar extends Component {
   <input className='search'></input>
   <button className='loginButton'>Login</button>
 </Navbar>
+<div className='we'>.</div>
             </div>
         );
     }

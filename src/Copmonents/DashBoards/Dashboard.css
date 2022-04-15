@@ -1,0 +1,155 @@
+
+    .Dashboardgrand_parent{ width: 100w; 
+      
+        background-color: rgb(22, 125, 173);
+         
+         }
+       
+       
+        .Dashboardparents{  
+            width: auto; 
+            height: auto; 
+            margin: auto;
+            padding: 1vw;
+            display: flex;
+            flex-wrap: wrap; 
+            transition: all 0.5 linear;
+            background-color: #f7fae2;
+    
+        }
+        .Dashboardchild{
+            height: 300px;
+            flex:0 0 300px;
+            transition: all 0.5 linear;
+            background-color: #c5911f;
+            border: 1px solid  rgb(0, 0, 0) ;
+            margin:5px ;
+            box-shadow: 0 0 5px #bb8105;
+            position: relative;
+            border-radius:  5%; ; 
+        }
+        .child:hover{
+            
+            border-style: solid;
+            border-color: rgb(49, 27, 17);
+            border-width:0.3px ;
+            box-shadow: 0 0 20px #292b2b;
+    
+        
+        }
+        .child:nth-child(even) {
+            background-color: #f4ffff;
+        }
+    .npmThermometer
+    {margin-left: 140px;
+margin-top: 15px;
+
+    }
+    
+    .ThermometerContainer
+    {margin: auto;
+        width: 100px;
+        height: 0px;
+        background-color: red;
+    
+ 
+        animation: example 2s linear 0s infinite alternate;
+
+    
+}
+
+@keyframes example{
+    from { height: 20px;} to { height: 100px;}
+  }
+  
+
+
+
+
+
+    
+        .child:first-child{
+           
+        }
+        .child:last-child{
+          
+        }
+    
+    
+    /*tab mod*/
+        @media (max-width: 732px) 
+        {
+            .grand_parent{height:auto; }
+            .parents{background-color:rgb(224, 133, 220) ;}
+            .child{
+                min-height: 250px;  
+                flex:1 1 25vw;
+                  
+                margin: 1vw;
+            }
+            
+        }
+        /*mobile mode*/
+        @media (max-width: 500px){
+            .grand_parent{height:auto; }
+            .parents{
+                background-color:rgb(70, 22, 22) }
+            .child{
+                
+                    flex:1 1 50vw;
+                    margin: 3vw;
+                }
+        }
+    
+    .Image3{
+        margin-top: 3px;
+    width:10vw;
+    height:10vw;
+    transition: transform .5s;
+    border: 1px  solid rgb(199, 192, 192) ;
+    
+            }
+    .ProductName3{
+        font-style: inherit;
+        color: rgb(61, 13, 13);
+        font-size: 90%;
+       
+    overflow: hidden;
+             }     
+        .ProductPrice3
+            {
+                font-style: inherit;
+                color: rgb(32, 73, 15);
+                font-weight: 800;
+                font-size: 100%;
+                position: absolute;
+                bottom : 5%;
+                left: 2%;
+            }
+       .ProductButton3
+       {
+        color: rgb(0, 0, 0);
+        background-color: #d8b496;
+        font-weight: 500;
+        font-size: 80%;
+        position: absolute;
+    bottom: 5%;
+    right: 2%;
+        width: auto;
+        height: auto;
+        border: 1px solid #c5911f ;
+    border-radius: 10%;
+    
+       }
+    
+      .Sidebar
+      {
+        margin-left: 5px;
+    float: left;
+    height: auto;
+    width: 18vw;
+    display: inline;
+    border: 5px double rgb(0, 0, 0);
+    background-color: rgb(240, 248, 211);
+    border-radius: 2vw;
+      }

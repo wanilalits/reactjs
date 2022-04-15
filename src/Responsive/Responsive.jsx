@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+import SideBar from '../Copmonents/SideBar';
 import './Responsive.css';
 class Responsive extends Component {
     constructor() {
@@ -24,7 +25,7 @@ class Responsive extends Component {
       render() {
         return (
             <>
-
+       <SideBar> </SideBar>
             <div className="grand_parent">
             {
                 this.state.list ?
@@ -38,7 +39,7 @@ class Responsive extends Component {
               <br/>
               <p3 className="ProductPrice3" > ${item.price}/- </p3>
               <br/>
-<div className="ProductButton3"> <button  >More</button></div>    
+<div > <button className="ProductButton3" >More</button></div>    
 
 					 </div>
 				   

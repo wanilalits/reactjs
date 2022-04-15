@@ -1,9 +1,14 @@
+.we
+{height: 5px;
+    background-color:#075988
+}
+
 .imageSlider{
 height: 300px;
 width: (100%-10px);
 overflow:hidden;
 border-style: solid;
-border-width: 5px;
+border-width: 1px;
 object-fit: contain;
 
     }
@@ -379,68 +384,7 @@ margin-right: 10px;
   transform: rotate(0deg);
   }
     /*......................Clock.............. */
-    /*......................Thermometer.............. */
-    .ThermometerOuterContainer
-  {
-  margin-left: 45px;
-  width: 30px;
-  height: 120px;
-  border-color: rgb(15, 19, 11);
-  border-width:  0px; 
-  position: relative;
-  border-style: solid ;
-  }
-  
-  .Thermometerbody
-  {
-    position: absolute;
-    width: 60%; 
-    height: 95%;
-    border-radius: 25% 25% 00% 00%;
-   border-color: lightblue;
-    border-style: solid;
-    border-width: 0.5%;
-    margin-left: 18.35%;
-    margin-top: 0px;
-  
-  }
-  
-  
-  .Thermometerbubble
-  {position: absolute;
-  width: 100%;
-  height:25%;
-  background-color: lavenderblush;
-  color: rgb(85, 22, 22);
-  border-color: rgb(99, 138, 61);
-  border-radius: 100%;
-  border-style: solid;
-  margin-top: 310%;
-  border-width:3px; 
-  }
-  
-    .ThermometerContainer {
-  position: absolute;
-  width: 20%; 
-  height: 10px;
-  color: rgb(71, 70, 13);
-  border-top: 100%;
-  border-radius: 20% 20% 00% 0%;
-  border-style: solid;
-  border-width: 1%;
-  margin-left: 40%;
-  
-  margin-top: 100px;
-  
-  animation: ThermometerContainer 1s linear 0s infinite alternate;
-  text-align:center;
-  }
-  
-  @keyframes ThermometerContainer
-  {
-   
-  }
-  
+    
   
   
   

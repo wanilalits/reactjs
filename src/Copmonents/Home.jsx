@@ -9,8 +9,8 @@ class Home extends Component {
           <Slider> </Slider>
           <div style={{color:"red", fontSize:"3vw",  fontWeight:"600"   }}> please do not refresh the page...(gh-pages is not been added yet)</div>
           <div style={{color:"Black", fontSize:"3vw",  fontWeight:"600"   }}> Under Development</div>
-          <Responsive></Responsive>
-          <br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.
+         
+          <br/>npm i react-thermometer <br/>.<br/>.<br/>.<br/>.<br/><br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.<br/>.
             
             <Footer></Footer>
               
