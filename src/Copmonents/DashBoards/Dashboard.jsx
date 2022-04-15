@@ -56,9 +56,9 @@ class Dashboards extends Component {
 		
 				
 					//document.querySelector('.ThermometerContainer').style.height=`${ secs}px`; 
-					//document.querySelector('.ThermometerContainer').style.height=`${ this.state.Randomnumber}px`; 
+					document.querySelector('.ThermometerContainer').style.height=`${ this.state.Randomnumber}px`; 
 					//document.querySelector('.ThermometerContainer').style.marginTop = `${100 - this.state.Randomnumber}px`; 
-					 document.querySelector('.ThermometerContainer').animate(keyframes:Keyframe[])=`{  from { height: 50px;} to { height: 100px;}}`; 
+					// document.querySelector('.ThermometerContainer').animate(keyframes:Keyframe[])=`{  from { height: 50px;} to { height: 100px;}}`; 
 					 /* 
 					 document.getElementById("ThermometerContainer").animate([
 						// keyframes
