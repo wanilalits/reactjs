@@ -8,14 +8,13 @@ import Dashboards from './Copmonents/DashBoards/Dashboard';
 import AboutUs from './Copmonents/AboutUs';
 import MaterialUI from './Copmonents/MaterialUI';
 import Responsive from './Responsive/Responsive.jsx';
-
 import {
   BrowserRouter,
   Routes,
   Route,
   Link,
 } from "react-router-dom";
-import {Card,Button } from 'react-bootstrap';
+
 import Buy from './Copmonents/Buy';
 
 
@@ -28,7 +27,8 @@ function App() {
    <BrowserRouter>
  <AppNavbar/>
         <Routes> 
-        <Route exact path="/" element={<Home/>} />
+        <Route  exact path="/reactjs" element={<Home/>} />
+        <Route  exact path="/" element={<Home/>} />
         <Route  path="/responsive" element={<Responsive />} />
         <Route  path="/dashboards" element={<Dashboards   />} />
         <Route  path="/aboutus" element={<AboutUs />} />
@@ -39,15 +39,16 @@ function App() {
         </Routes>
  </BrowserRouter>
 
+
+
+
     </div>
   );
 }
 
 export default App;
 /*
-<Route exact path="/"><Home/></Route>
-          <Route path="/aboutus"><AboutUs /></Route>
-          <Route path="/footer"><Footer /></Route>
-          <Route path="/buy"><Buy /></Route>
-          <Route path="/materialui"><Buy /></Route>
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
 */

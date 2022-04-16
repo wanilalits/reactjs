@@ -1,5 +1,8 @@
+body{
+    text-align: center;
+  }
 
-    .grand_parent{ width: 80w; 
+.grand_parent{ width: 80w; 
     background: #dfe6e9;
       margin-left:20vw;
      }
