@@ -1,0 +1,86 @@
+body{
+    
+}
+
+.home_grand_parent{ width: 98vw; 
+    text-align: center;
+  
+   }
+   .home_grand_parent::before{content: "Desktop Screen is detected";}
+
+  .home_parents{  
+      width: auto; 
+      height: auto; 
+      margin: auto;
+      padding: 1vw;
+      display: flex;
+      flex-wrap: wrap; 
+      transition: all 0.5 linear;
+     
+      align-self: center;
+  }
+  .home_child{
+   text-align: left;
+      box-shadow: 0 0 5px #f1f080;
+      flex:1 1 10vw;
+      margin: 1vw;
+      position: relative;
+      border-radius:  10px; ;
+      transition: all 0.5 linear;
+      border: 1px solid  rgb(226, 114, 9) ;
+  }
+ 
+  .home_child:nth-child(even) {
+      background-color: #ffffff;
+  }
+  .home_child:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+.home_child:hover{
+      
+    border-style: solid;
+    border-color: #dbd8c1;
+    border-width:0.3px ;
+    box-shadow: 0 0 10px #292b2b;
+
+
+}
+
+  .child:first-child{
+     
+  }
+  .child:last-child{
+    
+  }
+
+
+/*tab mod*/
+  @media (max-width: 732px) 
+  {
+    .home_grand_parent{height:auto;
+        text-align: center; }
+         .home_grand_parent::before{content: "Screen is looking as TAB Screen";}
+    .home_parents{}
+      .home_child{
+          text-align: left;
+          min-height: 250px;  
+          flex:1 1 25vw;
+            
+          margin: 1vw;
+      }
+      
+  }
+  /*mobile mode*/
+  @media (max-width: 500px){
+      .home_grand_parent{height:auto; 
+    }
+    .home_grand_parent::before{content: "Screen is looking as Mobile Screen";}
+      .home_parents{ }
+         .home_child{
+          
+              flex:1 1 50vw;
+              margin: 3vw;
+          }
+  }
+

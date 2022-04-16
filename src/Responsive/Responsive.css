@@ -1,5 +1,5 @@
 body{
-    text-align: center;
+    
   }
 
 .grand_parent{ width: 80w; 
@@ -7,7 +7,7 @@ body{
       margin-left:20vw;
      }
    
-   
+
     .parents{  
         width: auto; 
         height: auto; 
@@ -19,7 +19,7 @@ body{
         background-color: #f7fae2;
         align-self: center;
     }
-    .child{
+    .child{text-align: center;
         height: 300px;
         background:#e0f1f1;
         box-shadow: 0 0 20px #bac3c3;
@@ -120,7 +120,7 @@ border-radius: 10%;
    }
 
   .Sidebar
-  {
+  {text-align: center;
     margin-left: 5px;
 float: left;
 height: auto;
